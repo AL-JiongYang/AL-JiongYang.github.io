@@ -5,7 +5,7 @@
     <link>https://AL-JiongYang.github.io/author/moshe-y.-vardi/</link>
       <atom:link href="https://AL-JiongYang.github.io/author/moshe-y.-vardi/index.xml" rel="self" type="application/rss+xml" />
     <description>Moshe Y. Vardi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://AL-JiongYang.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Moshe Y. Vardi</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Network Reliability Estimation in Theory and Practice </title>
       <link>https://AL-JiongYang.github.io/publication/ress/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/ress/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting (Extended Abstract)  </title>
       <link>https://AL-JiongYang.github.io/publication/ijcai19_dnfcounter/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/ijcai19_dnfcounter/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>On the Hardness of Probabilistic Inference Relaxations</title>
       <link>https://AL-JiongYang.github.io/publication/aaai19_hardness/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/aaai19_hardness/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting </title>
       <link>https://AL-JiongYang.github.io/publication/cp18/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/cp18/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>On Hashing-Based Approaches to Approximate DNF-Counting </title>
       <link>https://AL-JiongYang.github.io/publication/fsttcs17/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/fsttcs17/</guid>
       <description></description>
     </item>
@@ -55,7 +55,7 @@
     <item>
       <title>The Hard Problems Are Almost Everywhere For Random CNF-XOR Formulas  </title>
       <link>https://AL-JiongYang.github.io/publication/ijcai17/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/ijcai17/</guid>
       <description></description>
     </item>
@@ -63,7 +63,7 @@
     <item>
       <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
       <link>https://AL-JiongYang.github.io/publication/aaai17/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/aaai17/</guid>
       <description></description>
     </item>
@@ -71,7 +71,7 @@
     <item>
       <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
       <link>https://AL-JiongYang.github.io/publication/immv16/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/immv16/</guid>
       <description></description>
     </item>
@@ -79,7 +79,7 @@
     <item>
       <title>Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls  </title>
       <link>https://AL-JiongYang.github.io/publication/ijcai16_counting/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/ijcai16_counting/</guid>
       <description></description>
     </item>
@@ -87,7 +87,7 @@
     <item>
       <title>Combining the k-CNF and XOR Phase-Transitions </title>
       <link>https://AL-JiongYang.github.io/publication/ijcai16_cnfxor/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/ijcai16_cnfxor/</guid>
       <description></description>
     </item>
@@ -95,7 +95,7 @@
     <item>
       <title>Approximate Probabilistic Inference via Word-Level Counting </title>
       <link>https://AL-JiongYang.github.io/publication/aaai16/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/aaai16/</guid>
       <description></description>
     </item>
@@ -103,7 +103,7 @@
     <item>
       <title>Constrained Sampling and Counting: Universal Hashing meets SAT Solving</title>
       <link>https://AL-JiongYang.github.io/publication/bnp16/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/bnp16/</guid>
       <description></description>
     </item>
@@ -111,7 +111,7 @@
     <item>
       <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
       <link>https://AL-JiongYang.github.io/publication/cp15/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/cp15/</guid>
       <description></description>
     </item>
@@ -119,7 +119,7 @@
     <item>
       <title>From Weighted to Unweighted Model Counting </title>
       <link>https://AL-JiongYang.github.io/publication/ijcai15/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/ijcai15/</guid>
       <description></description>
     </item>
@@ -127,7 +127,7 @@
     <item>
       <title>On Parallel Scalable Uniform SAT Witness Generator</title>
       <link>https://AL-JiongYang.github.io/publication/tacas15/</link>
-      <pubDate>Wed, 01 Apr 2015 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/tacas15/</guid>
       <description></description>
     </item>
@@ -135,7 +135,7 @@
     <item>
       <title>Distribution-Aware Sampling and Weighted Model Counting for SAT</title>
       <link>https://AL-JiongYang.github.io/publication/aaai14/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/aaai14/</guid>
       <description></description>
     </item>
@@ -143,7 +143,7 @@
     <item>
       <title>Balancing Scalability and Uniformity in SAT-Witness Generator </title>
       <link>https://AL-JiongYang.github.io/publication/dac14/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/dac14/</guid>
       <description></description>
     </item>
@@ -151,7 +151,7 @@
     <item>
       <title>A Scalable Approximate Model Counter </title>
       <link>https://AL-JiongYang.github.io/publication/cp13/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/cp13/</guid>
       <description></description>
     </item>
@@ -159,7 +159,7 @@
     <item>
       <title>A Scalable and Nearly Uniform Generator of SAT Witnesses</title>
       <link>https://AL-JiongYang.github.io/publication/cav13/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/cav13/</guid>
       <description></description>
     </item>

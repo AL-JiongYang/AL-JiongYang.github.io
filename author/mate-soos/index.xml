@@ -5,7 +5,7 @@
     <link>https://AL-JiongYang.github.io/author/mate-soos/</link>
       <atom:link href="https://AL-JiongYang.github.io/author/mate-soos/index.xml" rel="self" type="application/rss+xml" />
     <description>Mate Soos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 18 May 2020 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://AL-JiongYang.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mate Soos</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Accelerating Approximate Techniques for Counting and Sampling Models Through Refined CNF-XOR Solving</title>
       <link>https://AL-JiongYang.github.io/publication/cav20sgm/</link>
-      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/cav20sgm/</guid>
       <description></description>
     </item>
@@ -33,7 +33,7 @@
     <item>
       <title>GANAK: A Scalable Probabilistic Exact Model Counter</title>
       <link>https://AL-JiongYang.github.io/publication/ijcai19_ganak/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/ijcai19_ganak/</guid>
       <description></description>
     </item>
@@ -41,7 +41,7 @@
     <item>
       <title>CrystalBall: Gazing in the Black Box of SAT Solving </title>
       <link>https://AL-JiongYang.github.io/publication/sat19_cball/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/sat19_cball/</guid>
       <description></description>
     </item>
@@ -49,7 +49,7 @@
     <item>
       <title>BOSPHORUS: Bridging ANF and CNF Solvers </title>
       <link>https://AL-JiongYang.github.io/publication/date_cscm19/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/date_cscm19/</guid>
       <description>&lt;p&gt;Algebraic Normal Form (ANF) and Conjunctive Normal Form (CNF) are commonly used to encode problems in Boolean algebra. ANFs are typically solved via Gröbner basis algorithms, often using more memory than is feasible; while CNFs are solved using SAT solvers, which cannot exploit the algebra of polynomials naturally. We propose a paradigm that bridges between ANF and CNF solving techniques: the techniques are applied in an iterative manner to learn facts to augment the original problems. Experiments on over 1,100 benchmarks arising from four different applications domains demonstrate that learnt facts can significantly improve runtime and enable more benchmarks to be solved.&lt;/p&gt;
 </description>
@@ -87,7 +87,7 @@
     <item>
       <title>BIRD: Engineering an Efficient CNF-XOR SAT Solver and its Applications to Approximate Model Counting</title>
       <link>https://AL-JiongYang.github.io/publication/aaai19_bird/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://AL-JiongYang.github.io/publication/aaai19_bird/</guid>
       <description></description>
     </item>
