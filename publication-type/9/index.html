@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances.">
+  <meta name="description" content="Computer Science Department, School of Computing National University of Singapore">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://AL-JiongYang.github.io/publication/bnp16/">
+  <link rel="alternate" hreflang="en-us" href="https://AL-JiongYang.github.io/publication-type/9/">
 
   
 
@@ -215,12 +215,14 @@
   
 
   
+  <link rel="alternate" href="/publication-type/9/index.xml" type="application/rss+xml" title="MeelGroup">
+  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://AL-JiongYang.github.io/publication/bnp16/">
+  <link rel="canonical" href="https://AL-JiongYang.github.io/publication-type/9/">
 
   
   
@@ -236,63 +238,17 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="https://AL-JiongYang.github.io/publication/bnp16/">
-  <meta property="og:title" content="Constrained Sampling and Counting: Universal Hashing meets SAT Solving | MeelGroup">
-  <meta property="og:description" content="Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances."><meta property="og:image" content="https://AL-JiongYang.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://AL-JiongYang.github.io/publication-type/9/">
+  <meta property="og:title" content="9 | MeelGroup">
+  <meta property="og:description" content="Computer Science Department, School of Computing National University of Singapore"><meta property="og:image" content="https://AL-JiongYang.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://AL-JiongYang.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    
-      <meta property="article:published_time" content="2016-02-01T00:00:00&#43;00:00">
-    
-    <meta property="article:modified_time" content="2016-02-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2019-06-23T00:00:00&#43;00:00">
   
 
   
 
 
-    
-
-
-
-
-
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://AL-JiongYang.github.io/publication/bnp16/"
-  },
-  "headline": "Constrained Sampling and Counting: Universal Hashing meets SAT Solving",
-  
-  "datePublished": "2016-02-01T00:00:00Z",
-  "dateModified": "2016-02-01T00:00:00Z",
-  
-  "author": {
-    "@type": "Person",
-    "name": "Kuldeep S. Meel"
-  },
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Meel Group",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://AL-JiongYang.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
-    }
-  },
-  "description": "Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances."
-}
-</script>
-
-  
-
-  
 
 
   
@@ -304,7 +260,7 @@
 
 
 
-  <title>Constrained Sampling and Counting: Universal Hashing meets SAT Solving | MeelGroup</title>
+  <title>9 | MeelGroup</title>
 
 </head>
 
@@ -681,8 +637,6 @@
 </nav>
 
 
-  <div class="pub">
-
   
 
 
@@ -699,391 +653,52 @@
   
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1>Constrained Sampling and Counting: Universal Hashing meets SAT Solving</h1>
-
-  
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/author/kuldeep-meel/">Kuldeep Meel</a></span>, <span>Moshe Y. Vardi</span>, <span>Supratik Chakraborty</span>, <span>Daniel J. Fremont</span>, <span>Sanjit A. Seshia</span>, <span>Dror Fried</span>, <span><a href="/author/alexandru-dinu/">Alexandru Dinu</a></span>, <span>Sharad Malik</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    February 2016
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="http://www.comp.nus.edu.sg/~meel/Papers/BNP16.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/bnp16/cite.bib">
-  Cite
-</button>
-
-
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://bitbucket.org/kuldeepmeel/unigen/src/master/" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
+<div class="universal-wrapper pt-3">
+  <h1>9</h1>
 
   
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/slides/BNP%20Talk.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-
-</div>
-
 
   
 </div>
 
 
 
-  <div class="article-container">
+<div class="universal-wrapper">
+  
 
+  
+  
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract">Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances.</p>
     
-
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            
-            
-            <a href="/publication/#9">
-              Workshop
-            </a>
-            
-          </div>
-        </div>
+    <div>
+      <h2><a href="/publication/ijcai19_irr/" > Interpretable Classification Rules in Relaxed Logical Form </a></h2>
+      <div class="article-style">
+        
+          Interpretability has become a central thread in ML research. As ML algorithms continue to permeate critical application domains such as medicine, legal, and transportation, it becomes increasingly important to allow human domain experts to understand …
+        
       </div>
-      <div class="col-md-1"></div>
     </div>
-    <div class="d-md-none space-below"></div>
+  
     
-
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Proceedings of Workshop on Beyond NP(BNP)</em></div>
-        </div>
+    
+    <div>
+      <h2><a href="/publication/bnp16/" >Constrained Sampling and Counting: Universal Hashing meets SAT Solving</a></h2>
+      <div class="article-style">
+        
+          Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was …
+        
       </div>
-      <div class="col-md-1"></div>
     </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style"></div>
-
-    
-
-
-
-
-
-
-
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://AL-JiongYang.github.io/publication/bnp16/&amp;text=Constrained%20Sampling%20and%20Counting:%20Universal%20Hashing%20meets%20SAT%20Solving" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://AL-JiongYang.github.io/publication/bnp16/&amp;t=Constrained%20Sampling%20and%20Counting:%20Universal%20Hashing%20meets%20SAT%20Solving" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Constrained%20Sampling%20and%20Counting:%20Universal%20Hashing%20meets%20SAT%20Solving&amp;body=https://AL-JiongYang.github.io/publication/bnp16/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://AL-JiongYang.github.io/publication/bnp16/&amp;title=Constrained%20Sampling%20and%20Counting:%20Universal%20Hashing%20meets%20SAT%20Solving" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=Constrained%20Sampling%20and%20Counting:%20Universal%20Hashing%20meets%20SAT%20Solving%20https://AL-JiongYang.github.io/publication/bnp16/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://AL-JiongYang.github.io/publication/bnp16/&amp;title=Constrained%20Sampling%20and%20Counting:%20Universal%20Hashing%20meets%20SAT%20Solving" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
   
-    
-    
-
-
-
-
 
   
 
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-  </div>
 </div>
 
       
