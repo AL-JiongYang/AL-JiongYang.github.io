@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: http://www.satisfiability.org/SAT22/sitemap.xml
