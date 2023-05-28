@@ -34,6 +34,14 @@
       html * {
         font-family: "Times New Roman", Times, serif;
       }
+      .long-title {
+        font-size: 23px;
+      }
+      @media screen and (max-width: 1080px) {
+        .long-title {
+          font-size: 24px;
+        }
+      }
     </style>
 
   </head>
@@ -103,7 +111,7 @@
         </p>
 
         <p>
-          <a href="https://dl.acm.org/doi/10.1145/3340531.3412718" style="font-size:23px">
+          <a class="long-title" href="https://dl.acm.org/doi/10.1145/3340531.3412718">
             <b> Learning Formatting Style Transfer and Structure Extraction for Spreadsheet Tables with a Hybrid Neural Network Architecture </b> <br>
           </a>
           Haoyu Dong, Jiong Yang, Shi Han, and Dongmei Zhang. <br>
